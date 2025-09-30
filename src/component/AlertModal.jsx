@@ -22,7 +22,7 @@ export default function AlertModal({
             <button
               type="button"
               onClick={onCancel}
-              className="px-4 py-2 rounded-md border border-gray-300 text-gray-700 hover:bg-gray-50"
+              className="btn btn-cancel"
             >
               {cancelText}
             </button>
@@ -32,8 +32,8 @@ export default function AlertModal({
             onClick={onConfirm}
             className={`px-4 py-2 rounded-md text-white ${
               mode === "confirm"
-                ? "bg-red-600 hover:bg-red-700"
-                : "bg-primary-600 hover:bg-primary-700"
+                ? "btn btn-alert"
+                : "btn btn-alert"
             }`}
           >
             {confirmText}
