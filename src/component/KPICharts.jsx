@@ -79,7 +79,7 @@ export default function KPICharts({ filter = {} }) {
   }, [JSON.stringify(filter)]);
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 h-[300px]">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
       <div className="bg-white p-4 rounded-2xl shadow">
         <h3 className="font-semibold mb-2">KPI Status Distribution</h3>
         {pieData ? <Pie data={pieData} /> : <div>Loading...</div>}
