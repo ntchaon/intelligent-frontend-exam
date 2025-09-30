@@ -86,6 +86,11 @@ textarea {
   background-color: #ccc;
   color: #fff;
 }
+.btn-alert{
+  background-color: #e04a4a;
+  color: #fff;
+
+}
 .btn-create-submit{
     background-color: #01a139;
   border: 1px #01a139 solid;
