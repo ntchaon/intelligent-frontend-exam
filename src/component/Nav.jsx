@@ -45,7 +45,7 @@ export default function Nav() {
           }
         >
           <div>
-            <img className="me-2" src="images/icon-nav-KPI.png" alt="" />
+            <img className="me-2" src="images/icon-nav-user-setting.png" alt="" />
             Users
           </div>
         </NavLink>
